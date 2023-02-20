@@ -1,7 +1,6 @@
 
 
 
-
 title {color: #A5BE00;}
 
 body { background-color: #282C32; }
@@ -10,3 +9,44 @@ h1{color: #A5BE00;}
 
 p1{color: #E4DEE2
     ;}
+
+/* :root{
+    background-color: #282C32;
+} */
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* color: #B0C431 */
+}
+
+p{
+    /* color: #E4DEE2; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.packages{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.package{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.package p{
+    margin: 5px;
+}
+
+img{
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+
