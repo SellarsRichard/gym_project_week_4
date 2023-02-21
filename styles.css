@@ -93,4 +93,29 @@ nav li{
 }
 h3{color: #A5BE00;}
 
+
 q{color: #E0D8De;}
+table{
+    text-align: center;
+    color :#E0D8De;
+}
+
+
+table th{
+    color: #A5BE00
+}
+
+form{font-family:Helvetica, bold;
+
+
+    
+
+    
+    
+  
+    color: #E0D8De;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;}
+
