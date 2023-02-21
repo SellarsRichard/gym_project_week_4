@@ -1,7 +1,7 @@
 
 title {color: #A5BE00;}
 
-body { background-color: #23272C;font-size: xx-large; font-family: Arial, Helvetica, bold;}
+body { background-color: #23272C;font-size: xx-large; font-family:  Helvetica, bold;}
 
 
 html, body {
@@ -21,7 +21,7 @@ h1{ text-transform: uppercase;
 }
 
 p{
-    font-family: Arial, Helvetica, bold;
+    font-family:  Helvetica, bold;
     
     margin-left: 200px;
     margin-right: 200px;
@@ -89,7 +89,8 @@ nav li{
     justify-content: space-around;    
     background-color: #81DFFD;
     margin-top: auto;
+ 
 }
+h3{color: #A5BE00;}
 
-
-
+q{color: #E0D8De;}
