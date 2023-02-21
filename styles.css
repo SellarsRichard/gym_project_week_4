@@ -96,7 +96,21 @@ table{
     color :#E0D8De;
 }
 
+
 table th{
     color: #A5BE00
 }
 
+form{font-family:Helvetica, bold;
+
+
+    
+
+    
+    
+  
+    color: #E0D8De;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;}
