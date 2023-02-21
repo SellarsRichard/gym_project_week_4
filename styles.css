@@ -91,5 +91,12 @@ nav li{
     margin-top: auto;
 }
 
+table{
+    text-align: center;
+    color :#E0D8De;
+}
 
+table th{
+    color: #A5BE00
+}
 
