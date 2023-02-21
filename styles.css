@@ -54,13 +54,12 @@ img{
 nav{
     display: flex;
     list-style: none;  
-    justify-content: end; 
 }
 
-/* nav li:first-child{
+#navbar li:first-child{
 
     margin-right: auto;
-} */
+}
 
 nav li{
     margin-right:10px
