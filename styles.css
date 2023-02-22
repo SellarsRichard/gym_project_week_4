@@ -1,7 +1,11 @@
 
 title {color: #A5BE00;}
 
-body { background-color: #23272C;font-size: xx-large; font-family:  Helvetica, bold;}
+body { background-color: #23272C;
+    font-size: xx-large; 
+    font-family:  Helvetica, bold;
+    padding-top: 50px;
+}
 
 
 html, body {
@@ -74,6 +78,16 @@ nav a{
     font-size:large;
     text-decoration: none;
     
+}
+
+
+#navbar{
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    transition: top 0.3s;
 }
 
 #navbar li:first-child{
