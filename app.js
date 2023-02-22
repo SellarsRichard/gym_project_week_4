@@ -14,6 +14,9 @@ window.onscroll = function() {
 /* Shows if we are open or not */
 const londonhours = new Date().toLocaleString("en-US",{timeZone: 'Europe/London'})
 
+const displaytime = new Date().toLocaleString("en-GB",{timeZone: 'Europe/London'})
+
+
 const timehours = new Date(londonhours).getHours()
 
 const openstate = "OPEN"
@@ -21,11 +24,11 @@ const closedstate = "Closed"
 
 
 if (((6 <= timehours) && (timehours <= 23 )) || (timehours == 0)) {
-  document.getElementById("time_uk").innerHTML = londonhours ;
+  document.getElementById("time_uk").innerHTML = displaytime ;
   document.getElementById("open_closed").innerHTML = openstate;
   document.getElementById("open_closed").style.color = "#A5BE00"
 } else {
-  document.getElementById("time_uk").innerHTML = londonhours;
+  document.getElementById("time_uk").innerHTML = displaytime;
   document.getElementById("open_closed").innerHTML = closedstate;
   document.getElementById("open_closed").style.color = "red"
 }
