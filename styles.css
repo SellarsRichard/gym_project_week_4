@@ -145,3 +145,8 @@ form{font-family:Helvetica, bold;
     margin-left: auto;
     text-align: left;
 }
+
+h3, q{
+    margin-left: 200px;
+    margin-right: 200px;
+}
